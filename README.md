@@ -7,7 +7,7 @@
 
 - **Diseña un programa para determinar si un número entero es primo** o no.
 
-- Codifica tu solución en el archivo [`main.py`](/main.py).
+- Codifica tu solución en el archivo [`es_primo.py`](/es_primo.py).
    
 - Utiliza los siguientes ejemplos para dar formato a tus entradas y salidas:
   ```
