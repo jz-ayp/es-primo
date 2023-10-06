@@ -1,19 +1,15 @@
 """
-Determinar si un número es primo.
+Inserta el encabezado aquí y escribe tu código abajo
 """
 
+# Declaraciones
+CONSTANTE = valor
+
 # Entradas
-numero = int(input("Introduzca un número: "))
+entrada = input()
 
 # Proceso
-if numero == 1:
-    primo = "no"
-else:
-    primo = "sí"
-for divisor in range(2, numero):
-    if numero % divisor == 0:
-        primo = "no"
-        break
+
 
 # Salidas
-print(f"El número {numero} {primo} es primo.")
+print(salida)
