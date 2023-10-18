@@ -2,16 +2,27 @@
 
     on:
       push:
+        branches:
+          - '*'
+          - '!feedback'
         paths:
           - 'es_primo.py'
-          - '.github/classroom/autograding.json'
+
+      # Allows this workflow to be run manually from the Actions tab
+      workflow_dispatch:
+
+    permissions:
+      checks: write
+      actions: read
+      contents: read
 
     jobs:
-      build:
+      grade:
         name: Autograding
+        if: ${{ !github.event.repository.is_template }}
         runs-on: ubuntu-latest
         steps:
-          - uses: actions/checkout@v2
+          - uses: actions/checkout@v3
           - uses: education/autograding@v1
         env:
           LANG: C.UTF-8

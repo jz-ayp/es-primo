@@ -3,7 +3,7 @@
     {
       "name": "2",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "2",
       "output": "(sí|si)",
       "comparison": "regex",
@@ -13,7 +13,7 @@
     {
       "name": "3",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "3",
       "output": "(sí|si)",
       "comparison": "regex",
@@ -23,7 +23,7 @@
     {
       "name": "4",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "4",
       "output": "no",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "5",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "5",
       "output": "(sí|si)",
       "comparison": "regex",
@@ -43,7 +43,7 @@
     {
       "name": "6",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "6",
       "output": "no",
       "comparison": "included",
@@ -53,7 +53,7 @@
     {
       "name": "7",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "7",
       "output": "(sí|si)",
       "comparison": "regex",
@@ -63,7 +63,7 @@
     {
       "name": "8",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "8",
       "output": "no",
       "comparison": "included",
@@ -73,7 +73,7 @@
     {
       "name": "9",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "9",
       "output": "no",
       "comparison": "included",
@@ -83,7 +83,7 @@
     {
       "name": "10",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "10",
       "output": "no",
       "comparison": "included",
@@ -93,7 +93,7 @@
     {
       "name": "11",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "11",
       "output": "(sí|si)",
       "comparison": "regex",
@@ -103,7 +103,7 @@
     {
       "name": "12",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "12",
       "output": "no",
       "comparison": "included",
@@ -113,7 +113,7 @@
     {
       "name": "17",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "17",
       "output": "(sí|si)",
       "comparison": "regex",
@@ -123,7 +123,7 @@
     {
       "name": "23",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "23",
       "output": "(sí|si)",
       "comparison": "regex",
@@ -133,7 +133,7 @@
     {
       "name": "29",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "29",
       "output": "(sí|si)",
       "comparison": "regex",
@@ -143,7 +143,7 @@
     {
       "name": "7919",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 es_primo.py",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "7919",
       "output": "(sí|si)",
       "comparison": "regex",
