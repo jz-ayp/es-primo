@@ -5,7 +5,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "2",
-      "output": "(sí|si)",
+      "output": "^(?=.*(sí|si))(?!.*no).*",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "3",
-      "output": "(sí|si)",
+      "output": "^(?=.*(sí|si))(?!.*no).*",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -25,8 +25,8 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "4",
-      "output": "no",
-      "comparison": "included",
+      "output": "^(?!.*(sí|si))(?=.*no).*",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -35,7 +35,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "5",
-      "output": "(sí|si)",
+      "output": "^(?=.*(sí|si))(?!.*no).*",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -45,8 +45,8 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "6",
-      "output": "no",
-      "comparison": "included",
+      "output": "^(?!.*(sí|si))(?=.*no).*",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -55,7 +55,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "7",
-      "output": "(sí|si)",
+      "output": "^(?=.*(sí|si))(?!.*no).*",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -65,8 +65,8 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "8",
-      "output": "no",
-      "comparison": "included",
+      "output": "^(?!.*(sí|si))(?=.*no).*",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -75,8 +75,8 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "9",
-      "output": "no",
-      "comparison": "included",
+      "output": "^(?!.*(sí|si))(?=.*no).*",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -85,8 +85,8 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "10",
-      "output": "no",
-      "comparison": "included",
+      "output": "^(?!.*(sí|si))(?=.*no).*",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -95,7 +95,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "11",
-      "output": "(sí|si)",
+      "output": "^(?=.*(sí|si))(?!.*no).*",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -105,8 +105,8 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "12",
-      "output": "no",
-      "comparison": "included",
+      "output": "^(?!.*(sí|si))(?=.*no).*",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -115,7 +115,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "17",
-      "output": "(sí|si)",
+      "output": "^(?=.*(sí|si))(?!.*no).*",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -125,7 +125,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "23",
-      "output": "(sí|si)",
+      "output": "^(?=.*(sí|si))(?!.*no).*",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -135,7 +135,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "29",
-      "output": "(sí|si)",
+      "output": "^(?=.*(sí|si))(?!.*no).*",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -145,7 +145,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
       "input": "7919",
-      "output": "(sí|si)",
+      "output": "^(?=.*(sí|si))(?!.*no).*",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
