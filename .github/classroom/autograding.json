@@ -1,6 +1,16 @@
 {
   "tests": [
     {
+      "name": "1",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
+      "input": "1",
+      "output": "^(?!.*(sí|si))(?=.*no).*",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
       "name": "2",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 es_primo.py",
