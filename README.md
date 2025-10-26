@@ -5,7 +5,7 @@
 ## Instrucciones
 - Elabora el análisis y el algoritmo ***antes de escribir el código***. Utiliza un diagrama de flujo para representar tu algoritmo e ilustrar su lógica.
 
-- **Diseña un programa para determinar si un número entero es primo** o no.
+- **Diseña un programa para determinar si un número entero positivo es primo** o no.
 
 - Codifica tu solución en el archivo [`es_primo.py`](/es_primo.py).
    
