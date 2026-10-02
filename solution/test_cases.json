@@ -145,7 +145,16 @@
           "comparison": "regex",
           "input": "7919",
           "expected": "(?i)^(?=.*(sí|si|True))(?!.*(no|False)).*"
-        }
+        },
+        {
+          "name": "319993",
+          "type": "io",
+          "run": "python3 es_primo.py",
+          "points": 1,
+          "comparison": "regex",
+          "input": "319993",
+          "expected": "(?i)^(?=.*(sí|si|True))(?!.*(no|False)).*"
+        }        
       ]
     }
   ]
