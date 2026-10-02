@@ -9,7 +9,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "1",
-          "expected": "^(?!.*(sí|si))(?=.*no).*"
+          "expected": "(?i)^(?!.*(sí|si|True))(?=.*(no|False)).*"
         },
         {
           "name": "2",
@@ -18,7 +18,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "2",
-          "expected": "^(?=.*(sí|si))(?!.*no).*"
+          "expected": "(?i)^(?=.*(sí|si|True))(?!.*(no|False)).*"
         },
         {
           "name": "3",
@@ -27,7 +27,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "3",
-          "expected": "^(?=.*(sí|si))(?!.*no).*"
+          "expected": "(?i)^(?=.*(sí|si|True))(?!.*(no|False)).*"
         },
         {
           "name": "4",
@@ -36,7 +36,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "4",
-          "expected": "^(?!.*(sí|si))(?=.*no).*"
+          "expected": "(?i)^(?!.*(sí|si|True))(?=.*(no|False)).*"
         },
         {
           "name": "5",
@@ -45,7 +45,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "5",
-          "expected": "^(?=.*(sí|si))(?!.*no).*"
+          "expected": "(?i)^(?=.*(sí|si|True))(?!.*(no|False)).*"
         },
         {
           "name": "6",
@@ -54,7 +54,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "6",
-          "expected": "^(?!.*(sí|si))(?=.*no).*"
+          "expected": "(?i)^(?!.*(sí|si|True))(?=.*(no|False)).*"
         },
         {
           "name": "7",
@@ -63,7 +63,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "7",
-          "expected": "^(?=.*(sí|si))(?!.*no).*"
+          "expected": "(?i)^(?=.*(sí|si|True))(?!.*(no|False)).*"
         },
         {
           "name": "8",
@@ -72,7 +72,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "8",
-          "expected": "^(?!.*(sí|si))(?=.*no).*"
+          "expected": "(?i)^(?!.*(sí|si|True))(?=.*(no|False)).*"
         },
         {
           "name": "9",
@@ -81,7 +81,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "9",
-          "expected": "^(?!.*(sí|si))(?=.*no).*"
+          "expected": "(?i)^(?!.*(sí|si|True))(?=.*(no|False)).*"
         },
         {
           "name": "10",
@@ -90,7 +90,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "10",
-          "expected": "^(?!.*(sí|si))(?=.*no).*"
+          "expected": "(?i)^(?!.*(sí|si|True))(?=.*(no|False)).*"
         },
         {
           "name": "11",
@@ -99,7 +99,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "11",
-          "expected": "^(?=.*(sí|si))(?!.*no).*"
+          "expected": "(?i)^(?=.*(sí|si|True))(?!.*(no|False)).*"
         },
         {
           "name": "12",
@@ -108,7 +108,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "12",
-          "expected": "^(?!.*(sí|si))(?=.*no).*"
+          "expected": "(?i)^(?!.*(sí|si|True))(?=.*(no|False)).*"
         },
         {
           "name": "17",
@@ -117,7 +117,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "17",
-          "expected": "^(?=.*(sí|si))(?!.*no).*"
+          "expected": "(?i)^(?=.*(sí|si|True))(?!.*(no|False)).*"
         },
         {
           "name": "23",
@@ -126,7 +126,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "23",
-          "expected": "^(?=.*(sí|si))(?!.*no).*"
+          "expected": "(?i)^(?=.*(sí|si|True))(?!.*(no|False)).*"
         },
         {
           "name": "29",
@@ -135,7 +135,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "29",
-          "expected": "^(?=.*(sí|si))(?!.*no).*"
+          "expected": "(?i)^(?=.*(sí|si|True))(?!.*(no|False)).*"
         },
         {
           "name": "7919",
@@ -144,7 +144,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "7919",
-          "expected": "^(?=.*(sí|si))(?!.*no).*"
+          "expected": "(?i)^(?=.*(sí|si|True))(?!.*(no|False)).*"
         }
       ]
     }
